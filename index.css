@@ -59,7 +59,7 @@ li.dropdown {
 }
 
 .first {
-	background-image: url(http://www.publicdomainpictures.net/pictures/130000/velka/gray-wood-background.jpg);
+	background-image: url('VR.jpg');
 	min-height: 500px; 
     background-attachment: fixed;
     background-position: center;

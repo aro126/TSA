@@ -130,5 +130,9 @@ footer {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	box-shadow: inset 0px 0px 10px;
 }
+footer p {
+	font-family: Verdana;
+	color: white;
+}
+

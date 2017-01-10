@@ -60,7 +60,7 @@ li.dropdown {
 
 .first {
 	background-image: url(http://www.publicdomainpictures.net/pictures/130000/velka/gray-wood-background.jpg);
-	min-height: 300px; 
+	min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,14 +74,14 @@ li.dropdown {
 	overflow: scroll;
 }
 .first h2 {
-	padding: 80px 0px;
+	padding: 170px 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;
 }
 .second {
 	background-color: none;
-	height: 300px;
+	height: 500px;
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
@@ -92,7 +92,7 @@ li.dropdown {
 	box-shadow: inset 0px 0px 10px grey;
 }
 .second h3 {
-	padding-top: 80px;
+	padding-top: 170px;
 	color: black;
 	font-family: Arial;
 	z-index: 1;
@@ -102,7 +102,7 @@ li.dropdown {
 }
 .third {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    min-height: 300px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ li.dropdown {
 	overflow: scroll;
 }
 .third h2 {
-	padding-top: 40px;
+	padding-top: 170px;
 	color: black;
 	font-family: Arial;
 	z-index: 1;
@@ -135,4 +135,5 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
+
 

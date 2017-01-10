@@ -11,11 +11,8 @@ html {
 }
 .nav a {
 	padding: 8px 18px;
-	border: 2px solid #eeeeee;
-	border-radius: 8px;
 	position: relative;
 	cursor: pointer;
-	background-color: #000000;
 	display: block;
  }
 .nav a:active {
@@ -54,3 +51,9 @@ li {
 .drop:hover .content {
     display: block;
 }
+a {
+ 	color: #075BA1;
+ 	text-decoration: none;
+ 	font-family: "Verdana", sans-serif;
+ 	font-weight: bold;
+ }

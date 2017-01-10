@@ -24,6 +24,7 @@ li a, .dropbtn {
     text-decoration: none;
     font-family: Verdana;
     font-weight: bold;
+	z-index: 2
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -55,4 +56,79 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.first {
+	background-image: url(http://www.publicdomainpictures.net/pictures/130000/velka/gray-wood-background.jpg);
+	min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+}
+.first h2 {
+	padding: 80px 0px;
+	color: white;
+	font-family: Arial;
+	z-index: 1;
+}
+.second {
+	background-color: none;
+	height: 300px;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+	box-shadow: inset 0px 0px 10px grey;
+}
+.second h3 {
+	padding-top: 80px;
+	color: black;
+	font-family: Arial;
+	z-index: 1;
+}
+.second p {
+	font-family: Arial;
+}
+.third {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+}
+.third h2 {
+	padding-top: 40px;
+	color: black;
+	font-family: Arial;
+	z-index: 1;
+}
+.third p {
+	font-family: Arial;
+}
+footer {
+	background-color: #075BA1;
+	padding: 1px 0px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	box-shadow: inset 0px 0px 10px;
 }

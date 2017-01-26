@@ -57,7 +57,9 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.one {
+	display: flex;
+}
 .first {
 	background-image: url('virt.jpg');
 	min-height: 500px; 
@@ -72,16 +74,27 @@ li.dropdown {
 	background-size: cover;
 	z-index: -1;
 	overflow: scroll;
+	width: 40%;
 }
 .first h2 {
-	padding: 170px 0px;
+	padding: 200px 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;
 }
+.once {
+	box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
+}
+.once p {
+	font-family: Arial;
+	padding: 0px 10px;
+}
+.two {
+	display: flex;
+}
 .second {
 	background-color: none;
-	height: 500px;
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
@@ -90,15 +103,37 @@ li.dropdown {
 	z-index: -1;
 	overflow: scroll;
 	box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
 }
 .second h3 {
-	padding-top: 170px;
+	padding-top: 40%;
 	color: black;
 	font-family: Arial;
 	z-index: 1;
 }
 .second p {
 	font-family: Arial;
+}
+.twice {
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
+	min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+	width: 40%;
+}
+.twice h2 {
+	color: black;
+	font-family: Arial;
+	padding: 200px 0px;
 }
 .third {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");

@@ -1,0 +1,171 @@
+html {
+  background-color: #eeeeee;
+}
+body {
+  margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #075BA1;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+	z-index: 2
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #6a9cc6;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #075BA1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 110px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 10px;
+}
+
+.dropdown-content a:hover {background-color: #6a9cc6}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.one {
+	display: flex;
+}
+.first {
+	background-image: url("augmented-reality-1.jpg");
+	min-height: 500px; 
+    background-attachment: fixed;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	z-index: -1;
+	overflow: scroll;
+	width: 40%;
+}
+.first h2 {
+	padding: 200px 0px;
+	color: white;
+	font-family: Arial;
+	z-index: 1;
+}
+.once {
+	box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
+}
+.once p {
+	font-family: Arial;
+	padding: 0px 10px;
+}
+.two {
+	display: flex;
+}
+.second {
+	background-color: none;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+	box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
+}
+.second h3 {
+	padding-top: 200px;
+	color: black;
+	font-family: Arial;
+	z-index: 1;
+}
+.second p {
+	font-family: Arial;
+}
+.twice {
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
+	min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+	width: 40%;
+}
+.twice h2 {
+	color: black;
+	font-family: Arial;
+	padding: 200px 0px;
+}
+.third {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+	overflow: scroll;
+}
+.third h2 {
+	padding-top: 170px;
+	color: black;
+	font-family: Arial;
+	z-index: 1;
+}
+.third p {
+	font-family: Arial;
+}
+footer {
+	background-color: #075BA1;
+	padding: 1px 0px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+footer p {
+	font-family: Verdana;
+	color: white;
+}

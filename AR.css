@@ -20,7 +20,7 @@ li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
     font-family: Verdana;
     font-weight: bold;
@@ -62,11 +62,11 @@ li.dropdown {
 }
 .first {
 	background-image: url("augmented-reality-1.jpg");
-	min-height: 500px; 
+	min-height: 50%; 
     background-attachment: fixed;
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: 40% 600px;
+    background-size: 40% 60%;
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
@@ -76,7 +76,7 @@ li.dropdown {
 	width: 40%;
 }
 .first h2 {
-	padding: 200px 0px;
+	padding: 45% 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;
@@ -169,4 +169,5 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
+
 

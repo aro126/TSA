@@ -59,6 +59,7 @@ li.dropdown {
 }
 .one {
 	display: flex;
+	height: 50%;
 }
 .first {
 	background-image: url("augmented-reality-1.jpg");
@@ -76,7 +77,7 @@ li.dropdown {
 	width: 40%;
 }
 .first h2 {
-	padding: 45% 0px;
+	padding: 40% 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;
@@ -169,5 +170,3 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
-
-

@@ -62,13 +62,12 @@ li.dropdown {
 }
 .first {
 	background-image: url("augmented-reality-1.jpg");
-	min-height: 500px; 
+	height: 500px; 
     background-attachment: fixed;
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 40% 600px;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
 	z-index: -1;
@@ -84,6 +83,8 @@ li.dropdown {
 .once {
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
+	height: 500px;
+	overflow: scroll;
 }
 .once p {
 	font-family: Arial;
@@ -100,6 +101,7 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
+	height: 500px;
 	overflow: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
@@ -115,13 +117,12 @@ li.dropdown {
 }
 .twice {
 	background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
-	min-height: 500px; 
+	height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
 	background-size: cover;
@@ -136,13 +137,12 @@ li.dropdown {
 }
 .third {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    min-height: 500px; 
+    height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
 	background-size: cover;

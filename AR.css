@@ -86,7 +86,7 @@ li.dropdown {
 	height: 500px;
 	overflow: scroll;
 }
-.once p, h2 {
+.once p, h2, h3 {
 	font-family: Arial;
 	padding: 0px 10px;
 }

@@ -61,7 +61,7 @@ li.dropdown {
 	display: flex;
 }
 .first {
-	background-image: url("augmented-reality-1.jpg");
+	background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/blue-background-1455550229nC9.jpg");
 	height: 500px; 
     background-attachment: fixed;
     background-position: left top;
@@ -71,7 +71,7 @@ li.dropdown {
 	position: relative;
 	text-align: center;
 	z-index: -1;
-	overflow: hidden;
+	overflow: scroll;
 	width: 40%;
 }
 .first h2 {
@@ -84,11 +84,14 @@ li.dropdown {
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 	height: 500px;
-	overflow-y: scroll;
+	overflow: scroll;
 }
-.once p {
+.once p, h2 {
 	font-family: Arial;
 	padding: 0px 10px;
+}
+p {
+	text-indent: 30px;
 }
 .two {
 	display: flex;
@@ -101,7 +104,7 @@ li.dropdown {
 	background-size: cover;
 	z-index: -1;
 	height: 500px;
-	overflow-y: scroll;
+	overflow: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 }
@@ -126,7 +129,7 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: hidden;
+	overflow: scroll;
 	width: 40%;
 }
 .twice h2 {
@@ -146,7 +149,7 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: hidden;
+	overflow: scroll;
 }
 .third h2 {
 	padding-top: 170px;
@@ -168,3 +171,4 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
+

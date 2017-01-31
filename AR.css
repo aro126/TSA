@@ -71,7 +71,7 @@ li.dropdown {
 	position: relative;
 	text-align: center;
 	z-index: -1;
-	overflow: scroll;
+	overflow: hidden;
 	width: 40%;
 }
 .first h2 {
@@ -84,7 +84,7 @@ li.dropdown {
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 	height: 500px;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 .once p {
 	font-family: Arial;
@@ -101,7 +101,7 @@ li.dropdown {
 	background-size: cover;
 	z-index: -1;
 	height: 500px;
-	overflow: scroll;
+	overflow-y: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 }
@@ -126,7 +126,7 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: scroll;
+	overflow: hidden;
 	width: 40%;
 }
 .twice h2 {
@@ -146,7 +146,7 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: scroll;
+	overflow: hidden;
 }
 .third h2 {
 	padding-top: 170px;

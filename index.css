@@ -71,7 +71,6 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow-y: scroll;
 }
 .first h2 {
 	padding: 170px 0px;
@@ -113,7 +112,6 @@ li.dropdown {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow-y: scroll;
 }
 .third h2 {
 	padding-top: 170px;

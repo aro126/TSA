@@ -71,7 +71,6 @@ li.dropdown {
 	position: relative;
 	text-align: center;
 	z-index: -1;
-	overflow: scroll;
 	width: 40%;
 }
 .first h2 {
@@ -84,7 +83,8 @@ li.dropdown {
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 	height: 500px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 .once p, h2, h3 {
 	font-family: Arial;
@@ -104,7 +104,8 @@ p {
 	background-size: cover;
 	z-index: -1;
 	height: 500px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 }
@@ -129,7 +130,6 @@ p {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: scroll;
 	width: 40%;
 }
 .twice h2 {
@@ -149,7 +149,6 @@ p {
 	text-align: center;
 	background-size: cover;
 	z-index: -1;
-	overflow: scroll;
 }
 .third h2 {
 	padding-top: 170px;
@@ -171,4 +170,5 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
+
 

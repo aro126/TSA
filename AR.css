@@ -137,13 +137,17 @@ p {
 	font-family: Arial;
 	padding: 200px 0px;
 }
+.three {
+	display: flex;
+}
 .third {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	height: 500px; 
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0;
 	position: relative;
 	text-align: center;

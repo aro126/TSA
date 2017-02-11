@@ -122,6 +122,26 @@ li.dropdown {
 .third p {
 	font-family: Arial;
 }
+.fourth {
+	background-image: url('Screen Shot 2017-02-03 at 3.15.16 PM.png');
+	min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 5px 0px;
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	z-index: -1;
+}
+.fourth h2 {
+	padding: 170px 0px;
+	color: white;
+	font-family: Arial;
+	z-index: 1;
+}
 footer {
 	background-color: #075BA1;
 	padding: 1px 0px;

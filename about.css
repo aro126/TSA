@@ -122,7 +122,7 @@ li.dropdown {
 .third p {
 	font-family: Arial;
 }
-.second {
+.fourth {
 	background-color: none;
 	height: 500px;
 	margin: 0;
@@ -134,11 +134,14 @@ li.dropdown {
 	overflow-y: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 }
-.second h3 {
+.fourth h3 {
 	padding-top: 10px;
 	color: black;
 	font-family: Arial;
 	z-index: 1;
+}
+.fourth p {
+	font-family: Arial;
 }
 footer {
 	background-color: #075BA1;

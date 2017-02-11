@@ -132,12 +132,12 @@ li.dropdown {
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	background-size: cover;
 	z-index: -1;
 }
 .fourth h2 {
-	padding: 170px 0px;
+	padding: 10px 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;

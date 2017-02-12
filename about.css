@@ -86,7 +86,6 @@ li.dropdown {
 	text-align: left;
 	background-size: cover;
 	z-index: -1;
-	overflow-y: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 }
 .second h3 {
@@ -129,7 +128,6 @@ li.dropdown {
 	text-align: left;
 	background-size: cover;
 	z-index: -1;
-	overflow-y: scroll;
 	box-shadow: inset 0px 0px 10px grey;
 }
 .fourth h3 {

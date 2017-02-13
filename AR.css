@@ -90,9 +90,6 @@ li.dropdown {
 	font-family: Arial;
 	padding: 0px 10px;
 }
-p:first-line {
-	text-indent: 30px;
-}
 .two {
 	display: flex;
 }

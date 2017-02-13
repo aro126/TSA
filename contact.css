@@ -103,29 +103,6 @@ li.dropdown {
 	margin: 0px;
 	text-align: right;
 }
-.third {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	margin: 0;
-	padding: 5px 0px;
-	position: relative;
-	text-align: center;
-	background-size: cover;
-	z-index: -1;
-}
-.third h2 {
-	padding-top: 170px;
-	color: black;
-	font-family: Arial;
-	z-index: 1;
-}
-.third p {
-	font-family: Arial;
-}
 footer {
 	background-color: #075BA1;
 	padding: 1px 0px;

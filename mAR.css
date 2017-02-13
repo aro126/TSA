@@ -62,7 +62,7 @@ li.dropdown {
 }
 .first {
 	background-image: url("blue-background-1455550229nC9.jpg");
-	height: 20%; 
+	height: 30%; 
 	background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@ li.dropdown {
 	width: 100%;
 }
 .first h2 {
-	padding: 200px 0px;
+	padding: 10% 0px;
 	color: white;
 	font-family: Arial;
 }
@@ -82,6 +82,7 @@ li.dropdown {
 	-moz-box-shadow: inset 0px 0px 10px grey;
 	-webkit-box-shadow: inset 0px 0px 10px grey;
 	width: 100%;
+	height: 30%;
 }
 .once p {
 	font-family: Arial;
@@ -100,9 +101,10 @@ li.dropdown {
 	-moz-box-shadow: inset 0px 0px 10px grey;
 	-webkit-box-shadow: inset 0px 0px 10px grey;
 	width: 100%;
+	height: 30%;
 }
 .second h3 {
-	padding-top: 200px;
+	padding-top: 10%;
 	color: black;
 	font-family: Arial;
 }
@@ -111,7 +113,7 @@ li.dropdown {
 }
 .twice {
 	background-image: url("vector-abstract-blue-wave-background.jpg");
-	height: 20%; 
+	height: 30%; 
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
@@ -123,7 +125,7 @@ li.dropdown {
 .twice h2 {
 	color: black;
 	font-family: Arial;
-	padding: 200px 0px;
+	padding: 10% 0px;
 }
 .third {
 	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
@@ -137,7 +139,7 @@ li.dropdown {
 	text-align: center;
 }
 .third h2 {
-	padding-top: 170px;
+	padding-top: 10%;
 	color: black;
 	font-family: Arial;
 }

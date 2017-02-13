@@ -96,6 +96,7 @@ li.dropdown {
 .second {
 	background-color: none;
 	margin: 0;
+	
 	position: relative;
 	text-align: left;
 	height: 500px;
@@ -111,6 +112,7 @@ li.dropdown {
 }
 .second p {
 	font-family: Arial;
+	padding: 0px 10px;
 }
 .twice {
 	background-image: url("vector-abstract-blue-wave-background.jpg");

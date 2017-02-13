@@ -86,7 +86,6 @@ li.dropdown {
 	position: relative;
 	text-align: left;
 	background-size: cover;
-	z-index: -1;
 	box-shadow: inset 0px 0px 10px grey;
 	-moz-box-shadow: inset 0px 0px 10px grey;
 	-webkit-box-shadow: inset 0px 0px 10px grey;
@@ -95,7 +94,6 @@ li.dropdown {
 	padding-top: 10px;
 	color: black;
 	font-family: Arial;
-	z-index: 1;
 }
 .second p {
 	font-family: Arial;

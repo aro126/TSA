@@ -97,7 +97,7 @@ li.dropdown {
 	background-color: none;
 	margin: 0;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	height: 500px;
 	box-shadow: inset 0px 0px 10px grey;
 	-moz-box-shadow: inset 0px 0px 10px grey;

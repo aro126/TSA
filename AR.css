@@ -86,7 +86,7 @@ li.dropdown {
 	width: 60%;
 	height: 500px;
 }
-.once p, h2, h3 {
+.once p, h2, h3, li {
 	font-family: Arial;
 	padding: 0px 10px;
 }
@@ -110,7 +110,7 @@ li.dropdown {
 	color: black;
 	font-family: Arial;
 }
-.second p {
+.second p, li {
 	font-family: Arial;
 	padding: 0px 10px;
 }

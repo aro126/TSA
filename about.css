@@ -57,91 +57,55 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.one {
-	display: flex;
-}
+
 .first {
-	background-image: url("blue-background-1455550229nC9.jpg");
-	height: 500px; 
-    background-attachment: fixed;
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	margin: 0;
-	position: relative;
-	text-align: center;
-	z-index: -1;
-	width: 40%;
-}
-.first h2 {
-	padding: 200px 0px;
-	color: white;
-	font-family: Arial;
-	z-index: 1;
-}
-.once {
-	box-shadow: inset 0px 0px 10px grey;
-	-moz-box-shadow: inset 0px 0px 10px grey;
-	-webkit-box-shadow: inset 0px 0px 10px grey;
-	width: 60%;
-	height: 500px;
-}
-.once p, h2, h3 {
-	font-family: Arial;
-	padding: 0px 10px;
-}
-.two {
-	display: flex;
-}
-.second {
-	background-color: none;
-	margin: 0;
-	position: relative;
-	text-align: center;
-	height: 500px;
-	box-shadow: inset 0px 0px 10px grey;
-	-moz-box-shadow: inset 0px 0px 10px grey;
-	-webkit-box-shadow: inset 0px 0px 10px grey;
-	width: 60%;
-}
-.second h3 {
-	padding-top: 200px;
-	color: black;
-	font-family: Arial;
-}
-.second p {
-	font-family: Arial;
-}
-.twice {
-	background-image: url("vector-abstract-blue-wave-background.jpg");
+	background-image: url('Screen Shot 2017-02-03 at 3.15.16 PM.png');
 	height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
+	padding: 5px 0px;
 	position: relative;
 	text-align: center;
 	z-index: -1;
-	width: 40%;
 }
-.twice h2 {
+.first h2 {
+	padding: 170px 0px;
+	color: white;
+	font-family: Arial;
+	z-index: 1;
+}
+.second {
+	background-color: none;
+	height: 500px;
+	margin: 0;
+	padding: 5px 10px;
+	position: relative;
+	text-align: left;
+	background-size: cover;
+	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+}
+.second h3 {
+	padding-top: 10px;
 	color: black;
 	font-family: Arial;
-	padding: 200px 0px;
 }
-.three {
-	display: flex;
+.second p {
+	font-family: Arial;
 }
 .third {
-	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-	height: 500px; 
-	width: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url("2016-08-24 15.34.15.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	margin: 0;
+	padding: 5px 0px;
 	position: relative;
 	text-align: center;
 	z-index: -1;
@@ -154,6 +118,31 @@ li.dropdown {
 }
 .third p {
 	font-family: Arial;
+}
+.fourth {
+	background-color: none;
+	height: 500px;
+	margin: 0;
+	padding: 5px 10px;
+	position: relative;
+	text-align: left;
+	background-size: cover;
+	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+}
+.fourth h3 {
+	padding-top: 10px;
+	color: black;
+	font-family: Arial;
+}
+.fourth p {
+	font-family: Arial;
+}
+.fourth p:first-child {
+	color: rgb(142, 142, 142);
+	margin: 0px;
+	text-align: right;
 }
 footer {
 	background-color: #075BA1;

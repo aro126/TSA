@@ -66,7 +66,7 @@ li.dropdown {
     background-attachment: fixed;
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: 40% 600px;
+    background-size: cover;
 	margin: 0;
 	position: relative;
 	text-align: center;
@@ -81,16 +81,16 @@ li.dropdown {
 }
 .once {
 	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 	height: 500px;
-	overflow-y: scroll;
-	overflow-x: hidden;
 }
 .once p, h2, h3 {
 	font-family: Arial;
 	padding: 0px 10px;
 }
-p {
+p:first-line {
 	text-indent: 30px;
 }
 .two {
@@ -101,19 +101,16 @@ p {
 	margin: 0;
 	position: relative;
 	text-align: center;
-	background-size: cover;
-	z-index: -1;
 	height: 500px;
-	overflow-y: scroll;
-	overflow-x: hidden;
 	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
 }
 .second h3 {
 	padding-top: 200px;
 	color: black;
 	font-family: Arial;
-	z-index: 1;
 }
 .second p {
 	font-family: Arial;
@@ -128,7 +125,6 @@ p {
 	margin: 0;
 	position: relative;
 	text-align: center;
-	background-size: cover;
 	z-index: -1;
 	width: 40%;
 }
@@ -151,7 +147,6 @@ p {
 	margin: 0;
 	position: relative;
 	text-align: center;
-	background-size: cover;
 	z-index: -1;
 }
 .third h2 {

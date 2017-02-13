@@ -98,6 +98,11 @@ li.dropdown {
 .second p {
 	font-family: Arial;
 }
+.second p:first-child {
+	color: rgb(142, 142, 142);
+	margin: 0px;
+	text-align: right;
+}
 .third {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
     min-height: 500px; 

@@ -139,6 +139,11 @@ li.dropdown {
 .fourth p {
 	font-family: Arial;
 }
+.fourth p:first-child {
+	color: rgb(142, 142, 142);
+	margin: 0px;
+	text-align: right;
+}
 footer {
 	background-color: #075BA1;
 	padding: 1px 0px;

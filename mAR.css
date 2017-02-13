@@ -4,7 +4,7 @@ html {
 body {
   margin: 0;
 }
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +12,11 @@ ul {
     background-color: #075BA1;
 }
 
-li {
+.nav li {
     float: left;
 }
 
-li a, .dropbtn {
+.nav li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -27,11 +27,11 @@ li a, .dropbtn {
 	z-index: 2
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.nav li a:hover, .dropdown:hover .dropbtn {
     background-color: #6a9cc6;
 }
 
-li.dropdown {
+.nav li.dropdown {
     display: inline-block;
 }
 

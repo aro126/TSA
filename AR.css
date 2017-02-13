@@ -61,7 +61,7 @@ li.dropdown {
 	display: flex;
 }
 .first {
-	background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/blue-background-1455550229nC9.jpg");
+	background-image: url("blue-background-1455550229nC9.jpg");
 	height: 500px; 
     background-attachment: fixed;
     background-position: left top;
@@ -116,7 +116,7 @@ p:first-line {
 	font-family: Arial;
 }
 .twice {
-	background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
+	background-image: url("vector-abstract-blue-wave-background.jpg");
 	height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -137,7 +137,7 @@ p:first-line {
 	display: flex;
 }
 .third {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
+	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
 	height: 500px; 
 	width: 100%;
 	background-attachment: fixed;

@@ -57,60 +57,93 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.one {
+	display: flex;
+}
 .first {
-	background-image: url('virt.jpg');
-	min-height: 500px; 
+	background-image: url("blue-background-1455550229nC9.jpg");
+	height: 500px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	background-size: cover;
 	z-index: -1;
+	width: 40%;
 }
 .first h2 {
-	padding: 170px 0px;
+	padding: 200px 0px;
 	color: white;
 	font-family: Arial;
 	z-index: 1;
 }
+.once {
+	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
+	height: 500px;
+}
+.once p, h2, h3 {
+	font-family: Arial;
+	padding: 0px 10px;
+}
+.two {
+	display: flex;
+}
 .second {
 	background-color: none;
-	height: 500px;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	background-size: cover;
-	z-index: -1;
-	overflow-y: scroll;
+	height: 500px;
 	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+	width: 60%;
 }
 .second h3 {
-	padding-top: 170px;
+	padding-top: 200px;
 	color: black;
 	font-family: Arial;
-	z-index: 1;
 }
 .second p {
 	font-family: Arial;
 }
-.third {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    min-height: 500px; 
+.twice {
+	background-image: url("vector-abstract-blue-wave-background.jpg");
+	height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
-	padding: 5px 0px;
 	position: relative;
 	text-align: center;
+	z-index: -1;
+	width: 40%;
+}
+.twice h2 {
+	color: black;
+	font-family: Arial;
+	padding: 200px 0px;
+}
+.three {
+	display: flex;
+}
+.third {
+	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
+	height: 500px; 
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+	position: relative;
+	text-align: center;
 	z-index: -1;
 }
 .third h2 {

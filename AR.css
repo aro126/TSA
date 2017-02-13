@@ -4,7 +4,7 @@ html {
 body {
   margin: 0;
 }
-ul {
+ul:first-child {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -86,7 +86,7 @@ li.dropdown {
 	width: 60%;
 	height: 500px;
 }
-.once p, h2, h3, li {
+.once p, h2, h3 {
 	font-family: Arial;
 	padding: 0px 10px;
 }
@@ -110,9 +110,12 @@ li.dropdown {
 	color: black;
 	font-family: Arial;
 }
-.second p, li {
+.second p, .second li, .second ul {
 	font-family: Arial;
-	padding: 0px 10px;
+	padding: 2px 10px;
+	display: block;
+	position: relative;
+	float: none;
 }
 .twice {
 	background-image: url("vector-abstract-blue-wave-background.jpg");
@@ -168,5 +171,6 @@ footer p {
 	font-family: Verdana;
 	color: white;
 }
+
 
 

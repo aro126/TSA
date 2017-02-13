@@ -58,39 +58,37 @@ li.dropdown {
     display: block;
 }
 .one {
-	display: flex;
+	display: block;
 }
 .first {
-	background-image: url("augmented-reality-1.jpg");
-	min-height: 30%; 
-    background-attachment: fixed;
-    background-position: left top;
+	background-image: url("blue-background-1455550229nC9.jpg");
+	height: 20%; 
+	background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	z-index: -1;
-	overflow: scroll;
-	width: 40%;
+	width: 100%;
 }
 .first h2 {
 	padding: 200px 0px;
 	color: white;
 	font-family: Arial;
-	z-index: 1;
 }
 .once {
 	box-shadow: inset 0px 0px 10px grey;
-	width: 60%;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+	width: 100%;
 }
 .once p {
 	font-family: Arial;
 	padding: 0px 10px;
 }
 .two {
-	display: flex;
+	display: block;
 }
 .second {
 	background-color: none;
@@ -98,36 +96,29 @@ li.dropdown {
 	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	background-size: cover;
-	z-index: -1;
-	overflow: scroll;
 	box-shadow: inset 0px 0px 10px grey;
-	width: 60%;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
+	width: 100%;
 }
 .second h3 {
 	padding-top: 200px;
 	color: black;
 	font-family: Arial;
-	z-index: 1;
 }
 .second p {
 	font-family: Arial;
 }
 .twice {
-	background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
-	min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
+	background-image: url("vector-abstract-blue-wave-background.jpg");
+	height: 20%; 
     background-repeat: no-repeat;
     background-size: cover;
 	margin: 0;
 	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	background-size: cover;
-	z-index: -1;
-	overflow: scroll;
-	width: 40%;
+	width: 100%;
 }
 .twice h2 {
 	color: black;
@@ -135,9 +126,8 @@ li.dropdown {
 	padding: 200px 0px;
 }
 .third {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-    min-height: 500px; 
-    background-attachment: fixed;
+	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
+    height: 30%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,15 +135,11 @@ li.dropdown {
 	padding: 5px 0px;
 	position: relative;
 	text-align: center;
-	background-size: cover;
-	z-index: -1;
-	overflow: scroll;
 }
 .third h2 {
 	padding-top: 170px;
 	color: black;
 	font-family: Arial;
-	z-index: 1;
 }
 .third p {
 	font-family: Arial;

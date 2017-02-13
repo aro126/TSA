@@ -87,6 +87,8 @@ li.dropdown {
 	background-size: cover;
 	z-index: -1;
 	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
 }
 .second h3 {
 	padding-top: 10px;
@@ -129,6 +131,8 @@ li.dropdown {
 	background-size: cover;
 	z-index: -1;
 	box-shadow: inset 0px 0px 10px grey;
+	-moz-box-shadow: inset 0px 0px 10px grey;
+	-webkit-box-shadow: inset 0px 0px 10px grey;
 }
 .fourth h3 {
 	padding-top: 10px;

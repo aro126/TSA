@@ -66,7 +66,7 @@ li.dropdown {
     background-attachment: fixed;
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
+     background-size: 60% 600px;
 	margin: 0;
 	position: relative;
 	text-align: center;

@@ -117,6 +117,7 @@ li.dropdown {
 }
 .twice {
 	background-image: url("augmented-reality-iphone.jpg");
+	background-color: #075BA1;
 	height: 500px; 
    background-attachment: fixed;
     background-position: bottom right;

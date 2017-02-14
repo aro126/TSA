@@ -124,6 +124,7 @@ li.dropdown {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	-webkit-backface-visibility: hidden;
 	margin: 0;
 	position: relative;
 	text-align: center;
@@ -146,6 +147,7 @@ li.dropdown {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-backface-visibility: hidden;
 	margin: 0;
 	position: relative;
 	text-align: center;

@@ -62,6 +62,7 @@ li.dropdown {
 }
 .first {
 	background-image: url("Google_Glass_with_frame.jpg");
+	background-color: #e7e7e7;
 	height: 500px; 
     background-attachment: fixed;
     background-position: left top;
@@ -119,6 +120,7 @@ li.dropdown {
 }
 .twice {
 	background-image: url("sutherland-hmd.jpg");
+	background-color: #d2dafe;
 	height: 500px; 
     background-attachment: fixed;
     background-position: bottom right;

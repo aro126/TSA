@@ -114,12 +114,12 @@ li.dropdown {
 	font-family: Arial;
 }
 .twice {
-	background-image: url("vector-abstract-blue-wave-background.jpg");
+	background-image: url("sutherland-hmd.jpg");
 	height: 500px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 60% 600px;
 	margin: 0;
 	position: relative;
 	text-align: center;

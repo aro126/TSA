@@ -110,8 +110,12 @@ li.dropdown {
 	color: black;
 	font-family: Arial;
 }
-.second p {
+.second p, .second li, .second ul {
 	font-family: Arial;
+	padding: 2px 10px;
+	display: block;
+	position: relative;
+	float: none;
 }
 .twice {
 	background-image: url("sutherland-hmd.jpg");
@@ -131,31 +135,7 @@ li.dropdown {
 	font-family: Arial;
 	padding: 200px 0px;
 }
-.three {
-	display: flex;
-}
-.third {
-	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");
-	height: 500px; 
-	width: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0;
-	position: relative;
-	text-align: center;
-	z-index: -1;
-}
-.third h2 {
-	padding-top: 170px;
-	color: black;
-	font-family: Arial;
-	z-index: 1;
-}
-.third p {
-	font-family: Arial;
-}
+
 footer {
 	background-color: #075BA1;
 	padding: 1px 0px;

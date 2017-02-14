@@ -97,12 +97,13 @@ li.dropdown {
 	background-color: none;
 	margin: 0;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	height: 500px;
 	box-shadow: inset 0px 0px 10px grey;
 	-moz-box-shadow: inset 0px 0px 10px grey;
 	-webkit-box-shadow: inset 0px 0px 10px grey;
 	width: 60%;
+	padding: 0px 10px;
 }
 .second h3 {
 	padding-top: 200px;

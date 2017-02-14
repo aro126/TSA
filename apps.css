@@ -118,10 +118,10 @@ li.dropdown {
 .twice {
 	background-image: url("augmented-reality-iphone.jpg");
 	height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
+   background-attachment: fixed;
+    background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 60% 600px;
 	margin: 0;
 	position: relative;
 	text-align: center;

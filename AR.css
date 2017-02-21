@@ -59,6 +59,8 @@ li .dropdown {
 }
 .one {
 	display: flex;
+	display: -ms-flex;
+	display: -webkit-flex;
 }
 .first {
 	background-image: url("blue-background-1455550229nC9.jpg");
@@ -93,6 +95,8 @@ li .dropdown {
 }
 .two {
 	display: flex;
+	display: -ms-flex;
+	display: -webkit-flex;
 }
 .second {
 	background-color: none;
@@ -139,6 +143,8 @@ li .dropdown {
 }
 .three {
 	display: flex;
+	display: -ms-flex;
+	display: -webkit-flex;
 }
 .third {
 	background-image: url("Augmented_reality_at_Museu_de_Mataró_linking_to_Catalan_Wikipedia_(18).JPG");

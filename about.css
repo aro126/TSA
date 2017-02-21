@@ -26,7 +26,7 @@ li a {
     font-weight: bold;
 }
 
-li a:hover, .dropdown:hover {
+li a:hover {
     background-color: #6a9cc6;
 }
 

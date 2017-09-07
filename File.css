@@ -11,7 +11,7 @@ body {
 	margin: 0;
 	position: relative;
 }
-div {
+.File {
 	position: center;
 	margin: auto;
 }

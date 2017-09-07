@@ -12,6 +12,6 @@ body {
 	position: relative;
 }
 .File {
-	position: center;
 	margin: auto;
+	width: 50%
 }
